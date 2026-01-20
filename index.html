@@ -3,22 +3,22 @@
 <head>
   <headers>
     <title>Angel Fearrington</title>
+    <link rel="stylesheet" href="style.css">
     </headers>
 </head>
 <body>
-  <main>
+  <main class="collage">
     Hello World<br>
     <section>
-    <h1>Main Heading</h1>
+    <h1 id="page-content">Main Heading</h1>
     <h2>Heading level 2</h2>
     <h3>Heading level 3</h3>
     <h4>Heading level 4</h4>
     </section>
     <section>
-    <p>This is a paragraph of text. It's always going to be a single paragraph</p>
+    <p class="collage" style="top:10px;left:300px">This is a paragraph of text. It's always going to be a single paragraph</p>
     <span>This is inline text.</span>
     <div><strong>This is bold text</strong></div>
-
     <a href="https://www.w3schools.com/tags/default.asp" target="_blank">This is a link to the HTML reference</a>
     <i>This is italic text.</i>
     <br>This creates a line break.
@@ -38,8 +38,10 @@
 </ol>
 </section>
 <section>
-<img src="Images/2025-03-19-12-most-popoular-horse-breeds.webp" alt="Brown and white horse running in an open field" width="800" height="600">
-<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+<div class="cropContainer" style="width:200px;height:200px;background-color:blue">
+  <img style="position:relative;top:-100px;left:-100px" src="Images/2025-03-19-12-most-popoular-horse-breeds.webp" alt="Brown and white horse running in an open field" width="800" height="600">
+</div>
+ <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1&loop">
 </iframe>
 <audio controls>
   <source src="Images/Magic Collect Shimmer Reveal Glitter Particles Tonal Multi Swell High Bright 02.wav" type="audio/wav">

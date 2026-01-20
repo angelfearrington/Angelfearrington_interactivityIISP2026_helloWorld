@@ -1,0 +1,25 @@
+.collage{
+    position:absolute;
+}
+p{
+    color:#e6a91c;
+    transform: rotate(25rad)
+}
+body{
+    background-color:#a567f0;
+}
+#page-content{
+    width:25vw;
+    height:5vw;
+    background-color:blue;
+}
+#img1{
+    transform: rotate(50deg);
+}
+h3{
+    transform: rotate(10deg)
+}
+.cropContainer{
+    position: relative;
+    overflow: hidden;
+}
