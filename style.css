@@ -10,10 +10,14 @@ p{
 }
 body{
     background-color:cornflowerblue;
+    font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size:20px
 }
 #page-content{
-    width:30vw;
-    height:9vw;
+    width:29vw;
+    height:3vw;
     background-color:blue;
 }
 #img1{
@@ -23,11 +27,17 @@ body{
     position: relative;
     overflow: hidden;
 }
+.Cropcontainer{
+    position:relative;
+    overflow:hidden;
+}
 .container{
    position: relative;
    width: 100vw;
-   height: 200px;
-   background-color:seagreen
+   height: 70px;
+   background-color:seagreen;
+   font-size:20px;
+   
 }
 .center{
     position: absolute;
@@ -45,6 +55,7 @@ body{
     padding:20px;
     color:white;
     margin:20px;
+    text-align:center;
 }
 .display-exp:hover{
     transform:rotate(-5deg);
@@ -52,10 +63,11 @@ body{
 .flex-container{
     display:flex;
     width:100vw;
-    background-color:teal;
+    background-color:blueviolet;
     height:500px;
     justify-content: center;
     align-items:center;
+    font-size:35px;
 }
 h1{
    font-family: 'Libertinus Keyboard', system-ui;
@@ -124,5 +136,4 @@ h5{
     80%{color:blue;}
     90%{color:indigo;}
     100%{color:violet;}
-
 }
