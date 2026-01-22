@@ -2,24 +2,127 @@
     position:absolute;
 }
 p{
-    color:#e6a91c;
-    transform: rotate(25rad)
+ font-family: 'Tektur', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color:yellow;
 }
 body{
-    background-color:#a567f0;
+    background-color:;
 }
 #page-content{
-    width:25vw;
-    height:5vw;
+    width:30vw;
+    height:9vw;
     background-color:blue;
 }
 #img1{
     transform: rotate(50deg);
 }
-h3{
-    transform: rotate(10deg)
-}
 .cropContainer{
     position: relative;
     overflow: hidden;
+}
+.container{
+   position: relative;
+   width: 100vw;
+   height: 200px;
+   background-color:seagreen
+}
+.center{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    margin:0;
+}
+.display-exp{
+    display:flex;
+    gap:20px;
+}
+.display-exp div{
+    flex:1;
+    padding:20px;
+    color:white;
+    margin:20px;
+}
+.display-exp:hover{
+    transform:rotate(-5deg);
+}
+.flex-container{
+    display:flex;
+    width:100vw;
+    background-color:teal;
+    height:500px;
+    justify-content: center;
+    align-items:center;
+}
+h1{
+   font-family: 'Libertinus Keyboard', system-ui;
+  font-weight: 400;
+  font-style: normal;
+  animation-name:changeBG;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+
+}
+@keyframes changeBG{
+    0%{background-color:chartreuse;}
+    10%{background-color:orchid;}
+    15%{background-color:cadetblue;}
+    20%{background-color:thistle;}
+    25%{background-color:deeppink;}
+    30%{background-color:blue;}
+    35%{background-color:darkgreen;}
+    40%{background-color:violet;}
+    45%{background-color:#e6a91c;}
+    50%{background-color:tomato;}
+    55%{background-color:cadetblue;}
+    60%{background-color:deepskyblue;}
+    65%{background-color:burlywood;}
+    70%{background-color:crimson;}
+    75%{background-color:darkmagenta;}
+    80%{background-color:aquamarine;}
+    85%{background-color:goldenrod;}
+    90%{background-color:indianred;}
+    95%{background-color:slateblue;}
+    100%{background-color:darkslategrey;}
+
+}
+h1:hover{
+    color:snow;
+    transform:rotate(5deg);
+}
+h2:hover{
+    color:chartreuse;
+}
+h3:hover{
+    color:deeppink;
+}
+h4:hover{
+    color:salmon;
+}
+h5{
+    font-size: 45px;
+    animation-name:changeFont;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+@keyframes changeFont{
+    10%{color:white}
+    20%{color:lightpink}
+    30%{color:deeppink;}
+    40%{color:red;}
+    50%{color:orange;}
+    60%{color:yellow;}
+    70%{color:green;}
+    80%{color:blue;}
+    90%{color:indigo;}
+    100%{color:violet;}
+
 }
