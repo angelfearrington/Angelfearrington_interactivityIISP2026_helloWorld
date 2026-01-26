@@ -1,43 +1,65 @@
 <!DOCTYPE html>   <!--Declares this is an HTML5 document-->
 <html lang="en">   <!--html element is always the root element of the page-->
 <head>   <!--Contains metadata about the document-->
+  <header>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Angel Fearrington's Online Journal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="onlineJournal.css">
+  </header>
 </head>
 <body>  <!--Contains the visible page content-->
-    Hello, World!<br>
-    <br>
     <div>
-    <span style="color:purple"><b><h1><header>Welcome to My Online Journal!!</header></h1></b><br></span>
+    <b><h1><header class="center">Welcome to My Online Journal!!</header></h1></b>
     </div>
     <br>
-    <div>
-    <h3><p><mark>My name is Angel Fearrington</mark> and this is where I will write about details of my daily life and share other things about myself. Here is a picture of me in front of the <i>Fotografiska Museum of Photography</i> in Stockholm in May 2025:</p></h3>
-<img src="Images/20250524_173606.jpg" alt="Me in front of Fotografiska museum of photography in Stockholm" width="500" height="800">
+    
+    <h3><p class="Pcenter"><i>HI! My name is Angel Fearrington.</i> 
+      <br>
+      <br>I am a senior in the New Media and Design Program at UNCG and this is where I will write about details of my daily life and share other things about myself. Here is a picture of me in front of the <i>Fotografiska Museum of Photography</i> in Stockholm in May 2025 (top left photo) and a photo of a cat on a leash in an airport (bottom left photo).</p></h3>
+    <div class="Crop-container" style="width:300px;height:300px;background-color:blue">
+    <img src="Images/20250524_173606.jpg" alt="Me in front of Fotografiska museum of photography in Stockholm" width="500" height="800">
+    </div>
+<div class="cropContainer" style="width:300px;height:300px;background-color:blue">
+<img src="Images/20250525_154039.jpg" alt="Cat on a leash in the airport">
+</div>
 <br>
-<br>
-<h3><p>This is a video I took during the same trip of my sister-in-law in Oslo's <i>Vigeland Sculpture Park</i>:</p></h3>
-<video width="620" height="540" controls muted autoplay loop>
-  <source src="Images/20250521_185549.mp4" type="video/mp4">
-</video>
-<h3><p>In May 2025 my family visited a few different Scandinavian countries and cities, which included:</h3>
+<br>      
+<div class="container">
+<h3><p class="boxCenter">In May 2025 my family visited a few different Scandinavian countries and cities, which included:</h3>
+  <br>
+  <br>
   <ol><h4>
-    <li>Copenhagen Denmark</li>
+    <a href="https://en.wikipedia.org/wiki/Copenhagen" target="_blank"><li>Copenhagen, Denmark</li></a>
     <br>
-    <li>Bergen, Norway</li>
+    <a href="https://en.wikipedia.org/wiki/Bergen" target="_blank"><li>Bergen, Norway</li></a>
     <br>
-    <li>Oslo, Norway</li>
+    <a href="https://en.wikipedia.org/wiki/Oslo" target="_blank"><li>Oslo, Norway</li></a>
     <br>
-    <li>Stockholm, Sweden</li></h4>
+    <a href="https://en.wikipedia.org/wiki/Stockholm" target="_blank"><li>Stockholm, Sweden</li></a></h4>
   </ol>
 </p>
+<br>
+<br>
+<br>
+<br>
+<div class="flex-container">
+  <div class="flex-item">This is a picture of my boyfriend and I from winter break when we went bowling with my family!</div>
 </div>
+<br>
+<img src="Images/IMG_20251221_182618.jpg" style="max-width:100%;height:100%">
 <br>
 <br>
 <div>   
 <footer>Online Journal by: Angel Fearrington</footer>
 </div>
+<br>
 </body>
 </html>
 
