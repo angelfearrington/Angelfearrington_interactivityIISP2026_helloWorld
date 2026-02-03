@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <headers>
+    <title>Javascript Exercise - Angel Fearrington</title>
+     </headers>
+</head>
+<body>
+
+<section id="JSdemo">
+    <button ondblclick="alert('You Clicked The Button! Twice!!')" id="colorChangeButton">This is an Alert (Double Click!)</button>
+<br>
+<br>
+    <button onmouseover="Function()" id="ChangebuttonColor">This is a Confirmation</button>
+    <p id="okCancel"></p>
+    
+    <button onclick="myFunction()" id="ButtonColorChange">This is a Prompt</button>
+    <p id="demo"></p>
+</section>
+
+<style>
+  #colorChangeButton{
+    background-color:red;
+    color:white;
+  }
+</style>
+
+<style>
+  #ChangebuttonColor{
+    background-color:cornflowerblue;
+    color:white;
+  }
+</style>
+
+<style>
+  #ButtonColorChange{
+    background-color:deeppink;
+    color:white;
+  }
+</style>
+
+<script>
+  function Function(){
+    let text = "Press A Button!\nEither OK or Cancel.";
+    if (confirm(text) == true){
+      text = "You Clicked OK!";
+    } else{
+      text = "You Clicked Cancel!";
+    }
+
+    document.getElementById("okCancel").innerHTML = text;
+  }
+</script>
+
+<script>
+  function myFunction(){
+    let person = prompt("Please Enter Your Name");
+    if (person != null){
+
+      document.getElementById("demo").innerHTML = "Hello " + person + "! How Are You Today?";
+    }
+  }
+</script>
+<br>
+<br>
+
+<p>Guess My Favorite Color!</p>
+<p>Select a color option from the dropdown list to try to figure out my favorite color! (Extra Brownie Points if you get it on the first guess!!)</p>
+
+
+
+
+
+
+</body>
+</html>
