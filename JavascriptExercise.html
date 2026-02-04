@@ -67,7 +67,24 @@
 <p>Guess My Favorite Color!</p>
 <p>Select a color option from the dropdown list to try to figure out my favorite color! (Extra Brownie Points if you get it on the first guess!!)</p>
 
+<select id="favoriteColor" onchange="myColor()">
+  <option value="Red... is NOT my favorite color. Try again!">Red</option>
+  <option value="Blue... is NOT my favorite color. Try again!">Blue</option>
+  <option value="Pink... is NOT my favorite color. Try again!">Pink</option>
+  <option value="Teal... is NOT my favorite color. Try again!">Teal</option>
+  <option value="PURPLE... IS MY FAVORITE COLOR!! CONGRATULATIONS!!">Purple</option>
+  <option value="Green... is NOT my favorite color. Try again!">Green</option>
+  <option value="Yellow... is NOT my favorite color. Try again!">Yellow</option>
+</select>
 
+<p id="purple"></p>
+
+<script>
+  function myColor(){
+    let x = document.getElementById("favoriteColor").value;
+    document.getElementById("purple").innerHTML = x;
+  }
+</script>
 
 
 
